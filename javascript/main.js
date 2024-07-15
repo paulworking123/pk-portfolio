@@ -46,7 +46,7 @@ jQuery(document).ready(function () {
                 {
                     scrollTop: $(hrefId).offset().top - 0,
                 },
-                1500,
+                100,
                 "easeInOutExpo"
             ),
             e.preventDefault();
@@ -73,7 +73,7 @@ jQuery(document).ready(function () {
                     {
                         scrollTop: $(sectionTo).offset().top,
                     },
-                    1500,
+                    50,
                     "easeInOutExpo"
                 );
         });
@@ -87,7 +87,7 @@ jQuery(document).ready(function () {
                     {
                         scrollTop: $(sectionTo).offset().top - 10,
                     },
-                    1500,
+                    50,
                     "easeInOutExpo"
                 );
         });
